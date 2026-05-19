@@ -55,6 +55,15 @@ npm install
 npm run dev
 ```
 
+## Deploy On Vercel
+
+This app is ready to deploy on Vercel as a standard Next.js project.
+
+1. Push the repository to GitHub, GitLab, or Bitbucket.
+2. Import the repository in Vercel.
+3. Keep the default build settings, or use the values in [vercel.json](vercel.json).
+4. Add any future environment variables in Vercel and mirror them in [.env.example](.env.example).
+
 ## Validation
 
 ```bash
