@@ -1,0 +1,155 @@
+{
+  "members": [
+    {
+      "id": "m-1",
+      "name": "Avery Stone",
+      "email": "avery@lumenlabs.com",
+      "role": "Admin",
+      "status": "online",
+      "avatar": "AS",
+      "productivity": 93
+    },
+    {
+      "id": "m-2",
+      "name": "Noah Quinn",
+      "email": "noah@lumenlabs.com",
+      "role": "Manager",
+      "status": "away",
+      "avatar": "NQ",
+      "productivity": 81
+    },
+    {
+      "id": "m-3",
+      "name": "Mina Patel",
+      "email": "mina@lumenlabs.com",
+      "role": "Designer",
+      "status": "online",
+      "avatar": "MP",
+      "productivity": 88
+    },
+    {
+      "id": "m-4",
+      "name": "Leo Carter",
+      "email": "leo@lumenlabs.com",
+      "role": "Developer",
+      "status": "offline",
+      "avatar": "LC",
+      "productivity": 76
+    }
+  ],
+  "projects": [
+    {
+      "id": "p-1",
+      "name": "Nimbus Mobile App",
+      "description": "Cross-platform collaboration suite",
+      "status": "In Progress",
+      "deadline": "2026-07-25",
+      "progress": 62,
+      "priority": "High",
+      "memberIds": ["m-1", "m-3", "m-4"],
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Finalize onboarding flow",
+          "assigneeId": "m-3",
+          "status": "In Progress",
+          "priority": "High",
+          "dueDate": "2026-06-02"
+        },
+        {
+          "id": "t-2",
+          "title": "API performance audit",
+          "assigneeId": "m-4",
+          "status": "Todo",
+          "priority": "Medium",
+          "dueDate": "2026-06-06"
+        }
+      ]
+    },
+    {
+      "id": "p-2",
+      "name": "Pulse Analytics",
+      "description": "Executive dashboard and forecasting",
+      "status": "Review",
+      "deadline": "2026-06-30",
+      "progress": 84,
+      "priority": "Critical",
+      "memberIds": ["m-1", "m-2"],
+      "tasks": [
+        {
+          "id": "t-3",
+          "title": "Stakeholder review prep",
+          "assigneeId": "m-2",
+          "status": "In Progress",
+          "priority": "Critical",
+          "dueDate": "2026-05-30"
+        },
+        {
+          "id": "t-4",
+          "title": "Refine KPI widgets",
+          "assigneeId": "m-1",
+          "status": "Done",
+          "priority": "Low",
+          "dueDate": "2026-05-24"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-1",
+      "title": "Sprint Goal Reached",
+      "message": "Team velocity increased by 12% this week.",
+      "type": "success",
+      "createdAt": "2026-05-19T08:20:00.000Z",
+      "read": false
+    },
+    {
+      "id": "n-2",
+      "title": "Upcoming Deadline",
+      "message": "Nimbus Mobile App milestone due in 6 days.",
+      "type": "warning",
+      "createdAt": "2026-05-19T07:10:00.000Z",
+      "read": false
+    }
+  ],
+  "activity": [
+    {
+      "id": "a-1",
+      "action": "Created a new project workspace",
+      "actor": "Avery Stone",
+      "createdAt": "2026-05-19T09:15:00.000Z",
+      "category": "project"
+    },
+    {
+      "id": "a-2",
+      "action": "Updated design tokens for dashboard",
+      "actor": "Mina Patel",
+      "createdAt": "2026-05-19T09:42:00.000Z",
+      "category": "team"
+    },
+    {
+      "id": "a-3",
+      "action": "Completed weekly standup notes",
+      "actor": "Noah Quinn",
+      "createdAt": "2026-05-19T10:05:00.000Z",
+      "category": "system"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "mt-1",
+      "title": "Product Sync",
+      "date": "2026-05-21",
+      "time": "10:30",
+      "attendees": ["m-1", "m-2", "m-3"]
+    },
+    {
+      "id": "mt-2",
+      "title": "Engineering Roadmap",
+      "date": "2026-05-22",
+      "time": "14:00",
+      "attendees": ["m-1", "m-4"]
+    }
+  ]
+}
